@@ -14,7 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 const QRCodeScanner: React.FC = () => {
   const webcamRef = useRef<Webcam>(null);
   const detectorRef = useRef<QrDetector>(new QrDetector()); // Creating an instance of QrDetector
-  const [detectedQRCode, setDetectedQRCode] = useState<string | null>(null);
+  const [_,setDetectedQRCode] = useState<string | null>('');
   const [zoomLevel, setZoomLevel] = useState(1); // State for zoom level
   const [xrayActive, setXrayActive] = useState(false); // State for x-ray effect
 
