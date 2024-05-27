@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;  
+  display: auto;
+  background: black;
+}
+
+.scann{
+  margin: auto;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.scann2{
+    margin: auto;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+
+.scanner-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(50% + 100px);
+  max-width: 200px;
+  height: calc(50% + 100px);
+  max-height: 200px;
+  background-color: rgba(72, 255, 0, 0.5); /* Semi-transparent black overlay */
+  border: 2px solid white; /* White border */
+  border-radius: 10px; /* Rounded corners */
+  z-index: 2;
+}
+
+.zoom-controls{
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  background: white;
+}
